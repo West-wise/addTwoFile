@@ -20,8 +20,8 @@ uint32_t returnAdd(char *fname){
 }
 
 int main(){
-	char path[] = "/home/kali/gilgil/thousand.bin";
-	char path2[] = "/home/kali/gilgil/five-hundred.bin";
+	char path[] = "../thousand.bin";
+	char path2[] = "../five-hundred.bin";
 
 	printf("%d",returnAdd(path)+returnAdd(path2));
 	return 0;
